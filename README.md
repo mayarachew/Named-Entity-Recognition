@@ -20,29 +20,29 @@ This repository contains Deep Learning and NLP models for Named Entity Recogniti
 ## Folder structure
 
 ```
-├── :file_folder: ICDAR
-|   ├── :file_folder: data
-|   └── :file_folder: src
-|       ├── :notebook: experiment_one_receipt   # Experiment with one receipt
-|       └── :notebook: experiments/regex        # Regex model
-├── :file_folder: MIDD
-|   ├── :file_folder: data
-|   └── :file_folder: src/models
-|        ├── :notebook: BiLSTM_CRF              # Bidirectional LSTM + CRF model
-|        ├── :notebook: LSTM
-|        └── :notebook: LSTM_CRF                # LSTM + CRF model
-├── :file_folder: MITMovie
-|    ├── :file_folder: data
-|    └── :file_folder: src/models
-|        ├── :notebook: BiLSTM_CRF              # Bidirectional LSTM + CRF model
-|        ├── :notebook: LSTM
-|        └── :notebook: LSTM_CRF                # LSTM + CRF model
-├── :file_folder: MITRestaurant
-|   ├── :file_folder: data
-|   └── :file_folder: src/models
-|       ├── :notebook: BiLSTM_CRF               # Bidirectional LSTM + CRF model
-|       ├── :notebook: LSTM
-|       └── :notebook: LSTM_CRF                 # LSTM + CRF model
+├── 📁 ICDAR
+|   ├── 📁 data
+|   └── 📁 src
+|       ├── experiment_one_receipt   # Experiment with one receipt
+|       └── experiments/regex        # Regex model
+├── 📁 MIDD
+|   ├── 📁 data
+|   └── 📁 src/models
+|        ├── BiLSTM_CRF              # Bidirectional LSTM + CRF model
+|        ├── LSTM
+|        └── LSTM_CRF                # LSTM + CRF model
+├── 📁 MITMovie
+|    ├── 📁 data
+|    └── 📁 src/models
+|        ├── BiLSTM_CRF              # Bidirectional LSTM + CRF model
+|        ├── LSTM
+|        └── LSTM_CRF                # LSTM + CRF model
+├── 📁 MITRestaurant
+|   ├── 📁 data
+|   └── 📁 src/models
+|       ├── BiLSTM_CRF               # Bidirectional LSTM + CRF model
+|       ├── LSTM
+|       └── LSTM_CRF                 # LSTM + CRF model
 ```
 
 ## F1-score results
