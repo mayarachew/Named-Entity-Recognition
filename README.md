@@ -28,20 +28,20 @@ This repository contains Deep Learning and NLP models for Named Entity Recogniti
 ├── 📁 MIDD
 |   ├── 📁 data
 |   └── 📁 src/models
-|        ├── BiLSTM_CRF              # Bidirectional LSTM + CRF model
-|        ├── LSTM
-|        └── LSTM_CRF                # LSTM + CRF model
+|       ├── BiLSTM_CRF               # Bidirectional LSTM + CRF model
+|       ├── LSTM                     # LSTM
+|       └── LSTM_CRF                 # LSTM + CRF model
 ├── 📁 MITMovie
-|    ├── 📁 data
-|    └── 📁 src/models
-|        ├── BiLSTM_CRF              # Bidirectional LSTM + CRF model
-|        ├── LSTM
-|        └── LSTM_CRF                # LSTM + CRF model
+|   ├── 📁 data
+|   └── 📁 src/models
+|       ├── BiLSTM_CRF               # Bidirectional LSTM + CRF model
+|       ├── LSTM                     # LSTM
+|       └── LSTM_CRF                 # LSTM + CRF model
 ├── 📁 MITRestaurant
 |   ├── 📁 data
 |   └── 📁 src/models
 |       ├── BiLSTM_CRF               # Bidirectional LSTM + CRF model
-|       ├── LSTM
+|       ├── LSTM                     # LSTM
 |       └── LSTM_CRF                 # LSTM + CRF model
 ```
 
