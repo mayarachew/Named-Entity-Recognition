@@ -38,3 +38,4 @@ O objetivo deste desafio é treinar um modelo NLP que extraia de recibos de paga
 - https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_morphological_ops/py_morphological_ops.html
 - https://stackoverflow.com/questions/57858944/opencv-python-border-removal-preprocessing-for-ocr
 - https://pyimagesearch.com/topics/
+- https://www.dominodatalab.com/blog/named-entity-recognition-ner-challenges-and-model

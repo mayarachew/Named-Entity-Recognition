@@ -1,0 +1,3 @@
+{
+    "python.terminal.activateEnvironment": true // source .venv/bin/activate
+}
