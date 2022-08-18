@@ -17,7 +17,7 @@ This repository contains Deep Learning and NLP models for Named Entity Recogniti
 - [MITMovie](https://groups.csail.mit.edu/sls/downloads/movie/): semantically tagged movie corpus in BIO format.
 - [MITRestaurant](https://groups.csail.mit.edu/sls/downloads/restaurant/): semantically tagged tabular restaurant corpus in BIO format.
 
-## Folder structure
+## Project structure
 
 ```
 ├── 📁 ICDAR
