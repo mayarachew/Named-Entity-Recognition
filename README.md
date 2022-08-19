@@ -59,7 +59,8 @@ To accomplish this task, some NLP models were created based on Deep Learning con
 | ---------- | -------- | ------------- |
 | BiLSTM CRF | 0.52     | 0.67          |
 | LSTM CRF   | 0.54     | 0.66          |
-| LSTM       | 0.57     | 0.68          |
+| BiLSTM     | 0.57     | 0.68          |
+| LSTM       | 0.55     | 0.65          |
 
 |       | ICDAR |
 | ----- | ----- |
