@@ -13,7 +13,6 @@ This repository contains Deep Learning and NLP models for Named Entity Recogniti
 ## Datasets
 
 - [ICDAR](https://rrc.cvc.uab.es/?ch=13&com=tasks): image tagged invoice corpus.
-- [MIDD](https://www.mdpi.com/2306-5729/6/7/78): semantically tagged invoice corpus in BIO format.
 - [MITMovie](https://groups.csail.mit.edu/sls/downloads/movie/): semantically tagged movie corpus in BIO format.
 - [MITRestaurant](https://groups.csail.mit.edu/sls/downloads/restaurant/): semantically tagged tabular restaurant corpus in BIO format.
 
@@ -25,12 +24,6 @@ This repository contains Deep Learning and NLP models for Named Entity Recogniti
 |   └── 📁 src
 |       ├── experiment_one_receipt   # Experiment with one receipt
 |       └── experiments/regex        # Regex model
-├── 📁 MIDD
-|   ├── 📁 data
-|   └── 📁 src/models
-|       ├── BiLSTM_CRF               # Bidirectional LSTM + CRF model
-|       ├── LSTM                     # LSTM model
-|       └── LSTM_CRF                 # LSTM + CRF model
 ├── 📁 MITMovie
 |   ├── 📁 data
 |   └── 📁 src/models
@@ -48,12 +41,6 @@ This repository contains Deep Learning and NLP models for Named Entity Recogniti
 ## F1-score results
 
 To accomplish this task, some NLP models were created based on Deep Learning concepts: BiLSTM CRF, LSTM CRF and LSTM; and applied on tagged text corpus in BIO format. For image corpus, an experiment were performed using OCR and Regex to extract important fields, for future work I would like to implement LayoutML model and use BERT to identify and correct misleaded words.
-
-<!-- |            | MIDD (Layout 1) | MIDD (Layout 2) | MIDD (Layout 3) | MIDD (Layout 4) | MITMovie | MITRestaurant |
-| ---------- | --------------- | --------------- | --------------- | --------------- | -------- | ------------- |
-| BiLSTM CRF | X.XX%           | X.XX%           | X.XX%           | X.XX%           | 0.52     | 0.67          |
-| LSTM CRF   | X.XX%           | X.XX%           | X.XX%           | X.XX%           | 0.54     | 0.66          |
-| LSTM       | X.XX%           | X.XX%           | X.XX%           | X.XX%           | 0.57     | 0.68          | -->
 
 |            | MITMovie | MITRestaurant |
 | ---------- | -------- | ------------- |
@@ -79,7 +66,6 @@ To accomplish this task, some NLP models were created based on Deep Learning con
 Papers:
 
 - [A Survey on Deep Learning for Named Entity Recognition](https://arxiv.org/abs/1812.09449)
-- [Multi-Layout Invoice Document Dataset (MIDD): A Dataset for Named Entity Recognition](https://www.mdpi.com/2306-5729/6/7/78)
 - [LSTM-CRF for Drug-Named Entity Recognition](https://www.mdpi.com/1099-4300/19/6/283)
 - [Information Extraction from Text Intensive and Visually Rich Banking Documents](https://www.sciencedirect.com/science/article/abs/pii/S0306457320308566)
 - [CUTIE: Learning to Understand Documents with Convolutional Universal Text Information Extractor](https://arxiv.org/abs/1903.12363)
