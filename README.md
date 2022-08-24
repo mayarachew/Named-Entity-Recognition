@@ -10,6 +10,8 @@ Professor: [Vinícius R. P. Borges](https://github.com/viniciusrpb)
 
 This repository contains Deep Learning and NLP models for Named Entity Recognition (NER) task, whose main purpose is to extract usefull information from a corpus, that can be texts or images.
 
+Paper: https://drive.google.com/file/d/1aizYB3wMUEPsbgqhm_gr6D7d8eoh-I50/view?usp=sharing
+
 ## Datasets
 
 - [ICDAR](https://rrc.cvc.uab.es/?ch=13&com=tasks): image tagged invoice corpus.
